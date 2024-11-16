@@ -33,11 +33,11 @@ const SignIn = () => {
 
     const result = await login(formData).unwrap();
   };
-  if (user.role === "ADMIN") {
+  if (user?.role === "ADMIN") {
     router.push("/dashboard");
-  } else if (user.role === "TRAINER") {
+  } else if (user?.role === "TRAINER") {
     router.push("/trainer");
-  } else if (user.role === "TRAINEE") {
+  } else if (user?.role === "TRAINEE") {
     router.push("/");
   }
   return (

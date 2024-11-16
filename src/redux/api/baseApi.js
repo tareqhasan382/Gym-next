@@ -1,5 +1,6 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-export const BASEURL = "http://localhost:8000/api/v1/";
+export const BASEURL = "https://gym-backend-three.vercel.app/api/v1/";
+//
 export const baseApi = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
