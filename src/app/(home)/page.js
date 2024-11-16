@@ -8,7 +8,7 @@ export default function Home() {
       <div className=" lg:px-36 px-2 w-full h-full mt-10 ">
         <Hero />
       </div>
-      <div className=" lg:px-36 px-2 w-full h-auto bg-red-100 ">
+      <div className=" lg:px-36 px-2 w-full h-auto ">
         <div className=" w-full h-[400px] grid grid-cols-2 gap-10  ">
           <Image
             src={image1}
